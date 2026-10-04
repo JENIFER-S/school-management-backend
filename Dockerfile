@@ -1,5 +1,5 @@
 # Stage 1: Build the application using Maven
-FROM eclipse-temurin:17-jdk-alpine AS build
+FROM eclipse-temurin:21-jdk-alpine AS build
 WORKDIR /app
 COPY . .
 # Give execution permission to mvnw and then build
